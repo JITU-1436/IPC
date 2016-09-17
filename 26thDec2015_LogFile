@@ -1,0 +1,450 @@
+
+RCS file: header.h,v
+Working file: header.h
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+All the required header files are included here
+some important are
+stdio.h
+unistd.h
+stdlib.h
+string.h
+----------------------------
+revision 1.1	locked by: root;
+date: 2015/12/24 05:26:16;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: request.h,v
+Working file: request.h
+head: 1.14
+branch:
+locks: strict
+	root: 1.14
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 14;	selected revisions: 14
+description:
+This header file defines the structure of the request.
+----------------------------
+revision 1.14	locked by: root;
+date: 2015/12/26 06:38:36;  author: root;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.13
+date: 2015/12/26 06:25:58;  author: root;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.12
+date: 2015/12/26 06:24:45;  author: root;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2015/12/26 06:14:32;  author: root;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.10
+date: 2015/12/24 18:58:26;  author: root;  state: Exp;  lines: +1 -4
+*** empty log message ***
+----------------------------
+revision 1.9
+date: 2015/12/24 18:55:33;  author: root;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2015/12/24 18:52:52;  author: root;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2015/12/24 18:38:29;  author: root;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2015/12/24 11:29:35;  author: root;  state: Exp;  lines: +1 -2
+data type of oper changed to char from int
+----------------------------
+revision 1.5
+date: 2015/12/24 08:40:46;  author: root;  state: Exp;  lines: +2 -1
+changing the order of request
+----------------------------
+revision 1.4
+date: 2015/12/23 17:42:28;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2015/12/23 17:34:29;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2015/12/23 17:33:04;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2015/12/23 16:17:49;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: server.c,v
+Working file: server.c
+head: 1.47
+branch:
+locks: strict
+	root: 1.47
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 47;	selected revisions: 47
+description:
+This is Server program that accepts requests and processes and returns it to the specified client
+a child process is started using fork(); which further starts a new process using execl();
+----------------------------
+revision 1.47	locked by: root;
+date: 2015/12/26 10:45:49;  author: root;  state: Exp;  lines: +1 -1
+sleep(1) is applied at some point in the program
+----------------------------
+revision 1.46
+date: 2015/12/26 10:38:20;  author: root;  state: Exp;  lines: +8 -8
+This is a server process that recieves the request from the requesting client sends it to the processing client and provides the result submitted by the processing client to the requesting client
+----------------------------
+revision 1.45
+date: 2015/12/26 06:37:03;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.44
+date: 2015/12/26 06:33:42;  author: root;  state: Exp;  lines: +3 -0
+*** empty log message ***
+----------------------------
+revision 1.43
+date: 2015/12/26 06:24:44;  author: root;  state: Exp;  lines: +0 -1
+*** empty log message ***
+----------------------------
+revision 1.42
+date: 2015/12/26 06:17:58;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.41
+date: 2015/12/26 06:14:30;  author: root;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.40
+date: 2015/12/26 06:11:24;  author: root;  state: Exp;  lines: +3 -3
+*** empty log message ***
+----------------------------
+revision 1.39
+date: 2015/12/26 06:10:22;  author: root;  state: Exp;  lines: +3 -3
+*** empty log message ***
+----------------------------
+revision 1.38
+date: 2015/12/26 06:08:22;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.37
+date: 2015/12/26 06:07:46;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.36
+date: 2015/12/26 06:05:40;  author: root;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.35
+date: 2015/12/26 06:04:22;  author: root;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.34
+date: 2015/12/24 18:51:24;  author: root;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.33
+date: 2015/12/24 18:27:49;  author: root;  state: Exp;  lines: +5 -3
+*** empty log message ***
+----------------------------
+revision 1.32
+date: 2015/12/24 18:13:41;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.31
+date: 2015/12/24 18:10:40;  author: root;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.30
+date: 2015/12/24 18:00:55;  author: root;  state: Exp;  lines: +31 -9
+server program accepts request from client1 and gets it processed by client2 i.e adder.c
+and agan sends it to the requesting client
+----------------------------
+revision 1.29
+date: 2015/12/24 11:42:57;  author: root;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.28
+date: 2015/12/24 11:40:45;  author: root;  state: Exp;  lines: +4 -4
+*** empty log message ***
+----------------------------
+revision 1.27
+date: 2015/12/24 11:28:33;  author: root;  state: Exp;  lines: +5 -21
+request written by client1 is read and printed by the server.
+----------------------------
+revision 1.26
+date: 2015/12/24 09:19:18;  author: root;  state: Exp;  lines: +13 -11
+checking if the request is recieved properly or not
+----------------------------
+revision 1.25
+date: 2015/12/24 09:13:21;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.24
+date: 2015/12/24 09:12:33;  author: root;  state: Exp;  lines: +6 -0
+*** empty log message ***
+----------------------------
+revision 1.23
+date: 2015/12/24 09:09:56;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.22
+date: 2015/12/24 09:09:15;  author: root;  state: Exp;  lines: +3 -3
+*** empty log message ***
+----------------------------
+revision 1.21
+date: 2015/12/24 09:05:59;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.20
+date: 2015/12/24 09:04:18;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.19
+date: 2015/12/24 08:54:41;  author: root;  state: Exp;  lines: +10 -4
+fetching the data from request
+----------------------------
+revision 1.18
+date: 2015/12/24 08:42:31;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.17
+date: 2015/12/24 08:37:08;  author: root;  state: Exp;  lines: +3 -7
+changed to previous state
+----------------------------
+revision 1.16
+date: 2015/12/24 08:22:11;  author: root;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.15
+date: 2015/12/24 08:20:01;  author: root;  state: Exp;  lines: +7 -2
+*** empty log message ***
+----------------------------
+revision 1.14
+date: 2015/12/24 07:58:27;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.13
+date: 2015/12/24 07:57:07;  author: root;  state: Exp;  lines: +2 -2
+trying fetch the data recieved
+----------------------------
+revision 1.12
+date: 2015/12/24 06:02:52;  author: root;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2015/12/24 05:59:29;  author: root;  state: Exp;  lines: +2 -1
+checking if se corrected or not
+----------------------------
+revision 1.10
+date: 2015/12/24 05:57:39;  author: root;  state: Exp;  lines: +1 -1
+se.
+----------------------------
+revision 1.9
+date: 2015/12/24 05:56:10;  author: root;  state: Exp;  lines: +1 -0
+wait().
+----------------------------
+revision 1.8
+date: 2015/12/23 18:31:04;  author: root;  state: Exp;  lines: +1 -1
+se
+----------------------------
+revision 1.7
+date: 2015/12/23 18:30:34;  author: root;  state: Exp;  lines: +4 -3
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2015/12/23 18:27:36;  author: root;  state: Exp;  lines: +2 -2
+sum declared
+----------------------------
+revision 1.5
+date: 2015/12/23 18:25:11;  author: root;  state: Exp;  lines: +4 -0
+performing sum operation in server.c and printing the result
+----------------------------
+revision 1.4
+date: 2015/12/23 18:15:33;  author: root;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2015/12/23 18:11:58;  author: root;  state: Exp;  lines: +4 -2
+readeing from rfd
+----------------------------
+revision 1.2
+date: 2015/12/23 16:23:06;  author: root;  state: Exp;  lines: +4 -4
+program formatting made better by adding /n to the printf statement
+----------------------------
+revision 1.1
+date: 2015/12/23 16:10:58;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: client1.c,v
+Working file: client1.c
+head: 1.17
+branch:
+locks: strict
+	root: 1.17
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 17;	selected revisions: 17
+description:
+This is a client program which will generate requests
+rfd and wfd taken through CLA are coonvertwd to integer using atoi();
+creating request using struct request
+----------------------------
+revision 1.17	locked by: root;
+date: 2015/12/26 10:38:20;  author: root;  state: Exp;  lines: +2 -2
+This is a requesting client that requests the server.
+----------------------------
+revision 1.16
+date: 2015/12/24 18:00:55;  author: root;  state: Exp;  lines: +7 -2
+Client1 sending request and accepting the result from server
+----------------------------
+revision 1.15
+date: 2015/12/24 11:40:45;  author: root;  state: Exp;  lines: +8 -8
+*** empty log message ***
+----------------------------
+revision 1.14
+date: 2015/12/24 11:28:33;  author: root;  state: Exp;  lines: +1 -1
+request written by client1 is read and printed by the server.
+----------------------------
+revision 1.13
+date: 2015/12/24 08:22:11;  author: root;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.12
+date: 2015/12/24 08:00:18;  author: root;  state: Exp;  lines: +2 -1
+running check
+----------------------------
+revision 1.11
+date: 2015/12/23 18:25:11;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.10
+date: 2015/12/23 17:53:42;  author: root;  state: Exp;  lines: +1 -1
+ret declared
+----------------------------
+revision 1.9
+date: 2015/12/23 17:52:55;  author: root;  state: Exp;  lines: +5 -4
+wrote to the wfd
+----------------------------
+revision 1.8
+date: 2015/12/23 17:42:26;  author: root;  state: Exp;  lines: +4 -3
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2015/12/23 17:33:41;  author: root;  state: Exp;  lines: +1 -2
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2015/12/23 17:20:47;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2015/12/23 17:18:35;  author: root;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2015/12/23 17:15:22;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2015/12/23 16:57:18;  author: root;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2015/12/23 16:23:06;  author: root;  state: Exp;  lines: +6 -6
+program formatting made better by adding /n to the printf statement
+checking if previous error is removed or not
+----------------------------
+revision 1.1
+date: 2015/12/23 16:10:58;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: adder.c,v
+Working file: adder.c
+head: 1.13
+branch:
+locks: strict
+	root: 1.13
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 13;	selected revisions: 13
+description:
+client2 created for processing the request sent by client1 through server
+sum calculated and written to server through pipe2
+----------------------------
+revision 1.13	locked by: root;
+date: 2015/12/26 11:04:53;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.12
+date: 2015/12/26 11:04:07;  author: root;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.11
+date: 2015/12/26 11:03:06;  author: root;  state: Exp;  lines: +1 -1
+Returned to previous state.
+----------------------------
+revision 1.10
+date: 2015/12/26 11:02:21;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.9
+date: 2015/12/26 11:01:37;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.8
+date: 2015/12/26 11:00:41;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2015/12/26 10:58:42;  author: root;  state: Exp;  lines: +1 -1
+trying to fetch the operator
+----------------------------
+revision 1.6
+date: 2015/12/26 10:38:20;  author: root;  state: Exp;  lines: +1 -2
+Adder.c is a processing client that processes the request recieved from requesting client through the server
+After processing the request it sends it back to the server
+----------------------------
+revision 1.5
+date: 2015/12/24 19:35:37;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2015/12/24 19:23:26;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2015/12/24 18:38:28;  author: root;  state: Exp;  lines: +3 -3
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2015/12/24 18:10:40;  author: root;  state: Exp;  lines: +3 -3
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2015/12/24 18:00:55;  author: root;  state: Exp;
+Initial revision
+=============================================================================

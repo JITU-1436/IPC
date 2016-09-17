@@ -1,0 +1,115 @@
+#! /bin/bash
+
+for file in $(ls *.c)
+do
+	ci *.c
+done
+
+for file in $(ls *.h)
+do
+	ci *.h
+done
+
+
+for file in $(ls *.c,v)
+do
+	co *.c,v
+done
+
+for file in $(ls *.h,v)
+do
+	co *.h,v
+done
+
+if ( gcc -c server.c)
+then
+
+	echo "compilation successful"
+else
+	echo "compilation failed"
+fi
+
+if ( gcc -c client1.c)
+then
+
+	echo "compilation successful"
+else
+	echo "compilation failed"
+fi
+
+if ( gcc -c adder.c)
+then
+
+	echo "compilation successful"
+else
+	echo "compilation failed"
+fi
+
+if ( gcc -c client2.c)
+then
+
+	echo "compilation successful"
+else
+	echo "compilation failed"
+fi
+
+if ( gcc -c substract.c)
+then
+
+	echo "compilation successful"
+else
+	echo "compilation failed"
+fi
+
+if ( gcc -c client3.c)
+then
+
+	echo "compilation successful"
+else
+	echo "compilation failed"
+fi
+
+if ( gcc -c multiply.c)
+then
+
+	echo "compilation successful"
+else
+	echo "compilation failed"
+fi
+
+echo "Do You Want to Run(y/n)?"
+read response
+
+if [ $response='y' ]
+then
+	gcc -o project03 server.o
+	gcc -o client1 client1.o
+	gcc -o adder adder.o
+	gcc -o client2 client2.o
+	gcc -o substract substract.o
+	gcc -o client3 client3.o
+	gcc -o multiply multiply.o
+	./project03
+else
+	echo "Exiting Program!"
+fi
+
+read
+
+rm server.o
+rm client1.o
+rm adder.o
+rm client2.o
+rm substract.o
+rm client3.o
+rm multiply.o
+
+for file in $(ls *.c,v)
+do
+	co -l *.c,v
+done
+
+for file in $(ls *.h,v)
+do
+	co -l *.h,v
+done

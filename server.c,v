@@ -1,0 +1,1315 @@
+head	1.58;
+access;
+symbols;
+locks
+	root:1.58; strict;
+comment	@ * @;
+
+
+1.58
+date	2015.12.28.19.35.46;	author root;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2015.12.28.19.31.22;	author root;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2015.12.28.19.28.55;	author root;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2015.12.28.19.21.23;	author root;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2015.12.28.19.10.55;	author root;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2015.12.28.19.09.14;	author root;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2015.12.28.19.03.27;	author root;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2015.12.28.18.04.05;	author root;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2015.12.28.18.03.14;	author root;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2015.12.28.18.02.13;	author root;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2015.12.28.17.56.31;	author root;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2015.12.26.10.45.49;	author root;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2015.12.26.10.38.20;	author root;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2015.12.26.06.37.03;	author root;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2015.12.26.06.33.42;	author root;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2015.12.26.06.24.44;	author root;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2015.12.26.06.17.58;	author root;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2015.12.26.06.14.30;	author root;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2015.12.26.06.11.24;	author root;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2015.12.26.06.10.22;	author root;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2015.12.26.06.08.22;	author root;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2015.12.26.06.07.46;	author root;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2015.12.26.06.05.40;	author root;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2015.12.26.06.04.22;	author root;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2015.12.24.18.51.24;	author root;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2015.12.24.18.27.49;	author root;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2015.12.24.18.13.41;	author root;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2015.12.24.18.10.40;	author root;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2015.12.24.18.00.55;	author root;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2015.12.24.11.42.57;	author root;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2015.12.24.11.40.45;	author root;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2015.12.24.11.28.33;	author root;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2015.12.24.09.19.18;	author root;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2015.12.24.09.13.21;	author root;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2015.12.24.09.12.33;	author root;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2015.12.24.09.09.56;	author root;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2015.12.24.09.09.15;	author root;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2015.12.24.09.05.59;	author root;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2015.12.24.09.04.18;	author root;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2015.12.24.08.54.41;	author root;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2015.12.24.08.42.31;	author root;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2015.12.24.08.37.08;	author root;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2015.12.24.08.22.11;	author root;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2015.12.24.08.20.01;	author root;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2015.12.24.07.58.27;	author root;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2015.12.24.07.57.07;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2015.12.24.06.02.52;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2015.12.24.05.59.29;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2015.12.24.05.57.39;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2015.12.24.05.56.10;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2015.12.23.18.31.04;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2015.12.23.18.30.34;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2015.12.23.18.27.36;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2015.12.23.18.25.11;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2015.12.23.18.15.33;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2015.12.23.18.11.58;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.12.23.16.23.06;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.12.23.16.10.58;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@This is Server program that accepts requests and processes and returns it to the specified client
+a child process is started using fork(); which further starts a new process using execl();
+@
+
+
+1.58
+log
+@mult passed to the client3.c
+@
+text
+@#include"header.h"
+#include"request.h"
+
+int main()
+{
+	struct request r;
+	int arr[2], arr1[2], arr2[2], arr3[2], arr4[2], arr5[2];
+	int sum, diff, mult;
+	int bytes, count, count1,count2,count3,count4,count5,count6, count7, count8, count9, count10;
+	int fret1, fret2, fret3, fret4, fret5, fret6;
+	char rfdp1[4], wfdp1[4], rfdp2[4], wfdp2[4], rfdp3[4], wfdp3[4], rfdp4[4], wfdp4[4], rfdp5[4], wfdp5[4], rfdp6[4], wfdp6[4];
+	
+	printf("File: %s, Running\n", __FILE__);
+	
+	if(pipe(arr) != 0)
+	{
+		printf("ERROR");
+	}
+	printf("file descriptors are arr[0]= %d ; arr[1] = %d\n", arr[0], arr[1]);	
+	sprintf(rfdp1, "%d", arr[0]);
+	sprintf(wfdp1, "%d", arr[1]);
+	fret1 = fork();
+	switch(fret1)
+	{
+		case -1:
+			perror("fork");
+			break;
+		case 0:
+			printf("child process is running %s\n", __FILE__);
+			execl("./client1", "client1", rfdp1, wfdp1, NULL);
+			break;
+		default:
+
+			printf("%s process Running successfully\n", __FILE__);
+			bytes = read(arr[0], &r, sizeof(struct request));
+			printf("File: %s Read %d bytes\n", __FILE__, bytes);
+
+			if(pipe(arr1) != 0)
+			{
+				perror("pipe");	
+			}
+
+			printf("File: %s fd of pipe2 arr1[0]= %d ; arr1[1] = %d\n",__FILE__, arr1[0], arr1[1]);	
+
+			sprintf(rfdp2, "%d", arr1[0]);
+			sprintf(wfdp2, "%d", arr1[1]);
+			sleep(1);
+			fret2 = fork();
+			switch(fret2)
+			{
+				case -1:
+					perror("fork");
+					break;
+				case 0:
+					printf("File: %s Child 2 Forked\n", __FILE__);
+					execl("./adder", "adder", rfdp2, wfdp2, NULL);
+					break;
+				default:
+
+					count = write(arr1[1], &r, sizeof(struct request));	
+                        		printf("File: %s Write %d bytes\n", __FILE__, count);
+					sleep(1);
+					count1 = read(arr1[0], &sum, sizeof(int));
+                        		printf("File: %s Read %d bytes\n", __FILE__, count1);
+					sleep(1);
+					count2 = write(arr[1], &sum, sizeof(int));	
+                        		printf("File: %s Read from pipe 2 and Wrote to pipe 1 %d bytes\n", __FILE__, count2);
+					
+					// pipe 3;
+					if(pipe(arr2) != 0)
+					{
+						perror("pipe");
+					}
+					
+					printf("File: %s fd's of PIPE 3 arr2[0] = %d ; arr2[1] = %d\n", __FILE__, arr2[0], arr2[1]);
+
+					
+					sprintf(rfdp3, "%d", arr2[0]);
+					sprintf(wfdp3, "%d", arr2[1]);
+					sleep(1);
+					fret3 = fork();
+					switch(fret3)
+					{
+						case -1:
+							perror("fork");
+							break;
+						case 0:
+							printf("File: %s Child 3 Forked\n", __FILE__);
+							execl("./client2", "client2", rfdp3, wfdp3, NULL);
+							break;
+						default:
+							count3 = read(arr2[0], &r, sizeof(struct request));
+							printf("File: %s Read %d bytes\n", __FILE__, count3);
+
+		//pipe 4;			
+							if(pipe(arr3) != 0)
+							{
+								perror("pipe");	
+							}
+
+							printf("File: %s fd of pipe4 arr3[0]= %d ; arr3[1] = %d\n",__FILE__, arr3[0], arr3[1]);	
+	
+							sprintf(rfdp4, "%d", arr3[0]);
+							sprintf(wfdp4, "%d", arr3[1]);
+							sleep(1);
+							fret4 = fork();
+							switch(fret4)
+							{
+							    case -1:
+								perror("fork");
+								break;
+							    case 0:
+								printf("File: %s Child 4 Forked\n", __FILE__);
+								execl("./substract", "substract", rfdp4, wfdp4, NULL);
+								break;
+							    default:						
+								count4 = write(arr3[1], &r, sizeof(struct request));	
+        				                	printf("File: %s Write %d bytes\n", __FILE__, count4);
+								sleep(1);
+								count5 = read(arr3[0], &diff, sizeof(int));
+                        					printf("File: %s Read %d bytes\n", __FILE__, count5);
+								sleep(1);
+								count6 = write(arr2[1], &diff, sizeof(int));	
+				                        	printf("File: %s Read from pipe 2 and Wrote to pipe 1 %d bytes\n", __FILE__, count6);
+								sleep(1);
+								// pipe 5;
+								if(pipe(arr4) != 0)
+									{
+										perror("pipe");
+									}
+						
+								printf("File: %s fd's of PIPE 5 arr4[0] = %d ; arr4[1] = %d\n", __FILE__, arr4[0], arr4[1]);
+
+					
+								sprintf(rfdp4, "%d", arr4[0]);
+								sprintf(wfdp4, "%d", arr4[1]);
+								sleep(1);
+								fret5 = fork();
+								switch(fret5)
+								{
+									case -1:
+										perror("fork");
+										break;
+									case 0:
+										printf("File: %s Child 5 Forked\n", __FILE__);
+										execl("./client3", "client3", rfdp4, wfdp4, NULL);
+										break;
+									default:
+										count7 = read(arr4[0], &r, sizeof(struct request));
+										printf("File: %s Read %d bytes\n", __FILE__, count7);
+										sleep(1);
+								//pipe 6;			
+									if(pipe(arr5) != 0)
+									{
+										perror("pipe");	
+									}
+
+									printf("File: %s fd of pipe6 arr5[0]= %d ; arr5[1] = %d\n",__FILE__, arr5[0], arr5[1]);	
+	
+									sprintf(rfdp6, "%d", arr5[0]);
+									sprintf(wfdp6, "%d", arr5[1]);
+									sleep(1);
+									fret6 = fork();
+									switch(fret6)
+									{
+									    case -1:
+										perror("fork");
+										break;
+									    case 0:
+										printf("File: %s Child 6 Forked\n", __FILE__);
+										execl("./multiply", "multiply", rfdp6, wfdp6, NULL);
+										break;
+									    default:						
+										count8 = write(arr5[1], &r, sizeof(struct request));	
+        				                			printf("File: %s Write %d bytes\n", __FILE__, count8);
+										sleep(1);
+										count9 = read(arr5[0], &mult, sizeof(int));
+                        							printf("File: %s Read %d bytes\n", __FILE__, count9);
+										sleep(1);
+										count10 = write(arr4[1], &mult, sizeof(int));	
+				                        			printf("File: %s Read from pipe 2 and Wrote to pipe 1 %d bytes\n", __FILE__, count10);
+										break;
+									}
+									break;
+								}
+								break;
+							}
+							break;		
+					}
+			}		
+			break;
+	}
+}
+@
+
+
+1.57
+log
+@*** empty log message ***
+@
+text
+@d180 1
+a180 1
+										count10 = write(arr4[1], &diff, sizeof(int));	
+@
+
+
+1.56
+log
+@syntax errors detected and removed
+@
+text
+@d174 1
+a174 1
+										count8 = write(arr4[1], &r, sizeof(struct request));	
+d177 1
+a177 1
+										count9 = read(arr4[0], &mult, sizeof(int));
+d180 1
+a180 1
+										count10 = write(arr5[1], &diff, sizeof(int));	
+@
+
+
+1.55
+log
+@sleep();
+@
+text
+@d132 1
+a132 1
+								printf("File: %s fd's of PIPE 5 arr4[0] = %d ; arr4[1] = %d\n", __FILE__, arr4[0], arr2[1]);
+d135 2
+a136 2
+								sprintf(rfdp5, "%d", arr4[0]);
+								sprintf(wfdp5, "%d", arr4[1]);
+d146 1
+a146 1
+										execl("./client3", "client3", rfdp5, wfdp5, NULL);
+d149 1
+a149 1
+										count7 = read(arr5[0], &r, sizeof(struct request));
+d180 1
+a180 1
+										count10 = write(arr2[1], &diff, sizeof(int));	
+@
+
+
+1.54
+log
+@se.
+@
+text
+@d125 1
+a125 1
+								
+d151 1
+a151 1
+
+d182 1
+@
+
+
+1.53
+log
+@syntax error corrected
+@
+text
+@d184 1
+@
+
+
+1.52
+log
+@two new pipe arer created i.e. pipe5 pipe6 for creating another pair of requesting and processing clients
+capturing request from cklient3 and getting processed from  the processing client i.e multiply.c
+@
+text
+@d182 1
+@
+
+
+1.51
+log
+@syntax error corrected
+@
+text
+@d7 6
+a12 3
+	int fret1, arr[2], arr1[2], arr2[2], arr3[2], bytes, sum, diff, count, count2,count1,count3,count4,count5,count6, fret2, fret3, fret4;
+	char rfdp1[4], wfdp1[4], rfdp2[4], wfdp2[4], rfdp3[4], wfdp3[4], rfdp4[4], wfdp4[4];
+	int stat_loc;
+d125 58
+@
+
+
+1.50
+log
+@arr3[2] declared
+@
+text
+@d7 1
+a7 1
+	int fret1, arr[2], arr1[2], arr2[2], arr3[2] bytes, sum, diff, count, count2,count1,count3,count4,count5,count6, fret2, fret3, fret4;
+@
+
+
+1.49
+log
+@diff and wfdp4 declared
+@
+text
+@d7 1
+a7 1
+	int fret1, arr[2], arr1[2], arr2[2], bytes, sum, diff, count, count2,count1,count3,count4,count5,count6, fret2, fret3, fret4;
+@
+
+
+1.48
+log
+@pipe system call system invloked for two times for creating another requesting client and processsing client
+accordingly new variables arre declared
+testing if program is successful or not...
+@
+text
+@d7 2
+a8 2
+	int fret1, arr[2], arr1[2], arr2[2], bytes, sum, count, count2,count1,count3,count4,count5,count6, fret2, fret3, fret4;
+	char rfdp1[4], wfdp1[4], rfdp2[4], wfdp2[4], rfdp3[4], wfdp3[4], rfdp4[4], rfdp4[4];
+@
+
+
+1.47
+log
+@sleep(1) is applied at some point in the program
+@
+text
+@d7 2
+a8 2
+	int ret, arr[2], arr1[2],bytes, sum, count, count2,count1, fret;
+	char rfdp1[4], wfdp1[4], rfdp2[4], wfdp2[4];
+d19 2
+a20 2
+	ret = fork();
+	switch(ret)
+d45 2
+a46 2
+			fret = fork();
+			switch(fret)
+d65 61
+a125 1
+					break;		
+@
+
+
+1.46
+log
+@This is a server process that recieves the request from the requesting client sends it to the processing client and provides the result submitted by the processing client to the requesting client
+@
+text
+@d44 1
+a44 1
+
+@
+
+
+1.45
+log
+@*** empty log message ***
+@
+text
+@d30 1
+a30 1
+//			wait(stat_loc);
+d34 1
+d39 1
+d41 1
+d44 1
+a44 1
+//			sleep(1);
+d56 1
+a56 1
+//					wait(stat_loc);
+d65 2
+a66 4
+					break;
+					
+			}
+			
+a68 1
+
+@
+
+
+1.44
+log
+@*** empty log message ***
+@
+text
+@d41 1
+a41 1
+			sleep(1);
+@
+
+
+1.43
+log
+@*** empty log message ***
+@
+text
+@d41 1
+d56 1
+d59 1
+@
+
+
+1.42
+log
+@*** empty log message ***
+@
+text
+@a16 1
+
+@
+
+
+1.41
+log
+@*** empty log message ***
+@
+text
+@d58 1
+a58 1
+					count2 = write(arr[0], &sum, sizeof(int));	
+@
+
+
+1.40
+log
+@*** empty log message ***
+@
+text
+@d31 1
+a31 1
+			wait(stat_loc);
+d53 1
+a53 1
+					wait(stat_loc);
+@
+
+
+1.39
+log
+@*** empty log message ***
+@
+text
+@d9 1
+a9 1
+	int stat_val;
+d31 1
+a31 1
+			wait(stat_val);
+d53 1
+a53 1
+					wait(stat_val);
+@
+
+
+1.38
+log
+@*** empty log message ***
+@
+text
+@d9 1
+a9 1
+
+d31 1
+a31 1
+			sleep(2);
+d53 1
+a53 1
+					sleep(2);
+@
+
+
+1.37
+log
+@*** empty log message ***
+@
+text
+@d53 1
+a53 1
+					sleep(1);
+@
+
+
+1.36
+log
+@*** empty log message ***
+@
+text
+@d31 1
+a31 1
+			sleep(1);
+@
+
+
+1.35
+log
+@*** empty log message ***
+@
+text
+@d31 1
+a31 1
+			wait();
+d53 1
+a53 1
+					wait();
+@
+
+
+1.34
+log
+@*** empty log message ***
+@
+text
+@d31 1
+a31 1
+
+d53 1
+@
+
+
+1.33
+log
+@*** empty log message ***
+@
+text
+@d9 1
+a9 1
+	int stat_loc;
+d31 1
+a31 1
+			wait(&stat_loc);
+@
+
+
+1.32
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int ret, arr[2], arr1[2],bytes, sum, count, count2, fret;
+d53 4
+a56 2
+					count = read(arr1[0], &sum, sizeof(int));
+                        		printf("File: %s Read %d bytes\n", __FILE__, count);
+@
+
+
+1.31
+log
+@*** empty log message ***
+@
+text
+@d55 1
+a55 1
+					count2 = write(arr[0], sum, sizeof(int));	
+@
+
+
+1.30
+log
+@server program accepts request from client1 and gets it processed by client2 i.e adder.c
+and agan sends it to the requesting client
+@
+text
+@d7 1
+a7 1
+	int ret, arr[2], arr1[2],bytes, sum, count, count2;
+d55 1
+a55 1
+					count2 = write(arr[0], &res, sizeof(int));	
+@
+
+
+1.29
+log
+@*** empty log message ***
+@
+text
+@d7 2
+a8 2
+	int ret, arr[2],bytes, sum;
+	char rfd[4], wfd[4], buff[100];
+d18 2
+a19 2
+	sprintf(rfd, "%d", arr[0]);
+	sprintf(wfd, "%d", arr[1]);
+d28 1
+a28 1
+			execl("./client1", "client1", rfd, wfd, NULL);
+d35 26
+a60 3
+			printf("r.opr1 = %c",(char)r.oper);
+			printf("r.opr2 = %d", (int)r.opr1);
+			printf("r.oper = %d", (int)r.opr2);
+a63 1
+	OUT: -1;
+@
+
+
+1.28
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int ret, arr[2],bytes, sum,;
+d33 1
+a33 1
+			bytes = read(rfd, &r, sizeof(struct request));
+@
+
+
+1.27
+log
+@request written by client1 is read and printed by the server.
+@
+text
+@d7 1
+a7 1
+	int ret, arr[2], count=0, sum, i=0, data;
+d32 3
+a34 3
+			printf("Parent process Running successfully\n");
+			read(rfd, &r, sizeof(struct request));
+			printf("File: %s Read %d bytes\n", __FILE__, count);
+@
+
+
+1.26
+log
+@checking if the request is recieved properly or not
+@
+text
+@d33 5
+a39 21
+	lseek(arr[0], 0, SEEK_SET);
+	while(i<=sizeof(struct request))
+	{
+	count = read(arr[0], &buff,4);
+	if(count == 4)
+		r.opr1 = *buff;
+	if(count == 8)
+		r.opr2 = *buff;
+	if(count == 12)
+		r.oper = buff;
+//	printf("data in buff = %d\n", *buff);
+	i++;
+	printf("Read %d bytes\n", count);
+	}
+	
+	printf("r.opr1 = %d", r.opr1);
+	printf("r.opr2 = %d", r.opr2);
+	printf("r.oper = %s", r.oper);
+	
+//	sum = r.opr1 + r.opr2;
+//	printf("sum = %d", sum);
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int ret, arr[2], count=0, sum, i, data;
+d39 7
+a45 9
+	printf("data in buff = %d\n", *buff);
+		if(count == 12)
+		{
+			printf("data in buff = %s\n", buff);
+		}
+		else
+		{
+			goto OUT;
+		}
+d49 5
+a53 1
+
+@
+
+
+1.24
+log
+@*** empty log message ***
+@
+text
+@d46 1
+a46 1
+			goto: OUT;
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d44 4
+d54 2
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d40 1
+a40 1
+		if(count == 3)
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d36 1
+a36 1
+	while(count<=sizeof(struct request))
+d40 1
+a40 1
+		if(count == 15)
+d44 1
+a44 1
+	count++;
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d40 1
+a40 1
+		if(count == sizeof(struct request))
+@
+
+
+1.19
+log
+@fetching the data from request
+@
+text
+@d36 1
+a36 1
+	while(count<sizeof(struct request))
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int ret, arr[2], count, sum, i, data;
+d36 3
+a38 2
+
+	count = read(arr[0], &buff,sizeof(struct request));
+d40 5
+d46 1
+a46 1
+
+@
+
+
+1.17
+log
+@changed to previous state
+@
+text
+@d38 1
+a38 1
+	printf("data in buff = %s\n", buff);
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d36 3
+a38 7
+	while(i<=sizeof(struct request))
+	{
+		count = read(arr[0], &buff,1);
+		count += count;
+		data = (int)buff;
+		printf("data in buff = %s\n", buff);	
+	}
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d7 1
+a7 1
+	int ret, arr[2], count, sum;
+d40 1
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d36 6
+a41 1
+	count = read(arr[0], &buff, sizeof(struct request));
+d44 1
+a44 1
+	printf("data in buff = %s\n", buff);	
+@
+
+
+1.13
+log
+@trying fetch the data recieved
+@
+text
+@d39 1
+a39 1
+	printf("data in buff = %d\n", buff);	
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d36 1
+a36 1
+	count = read(arr[0], &buff, 100);
+d39 1
+a39 1
+	printf("r.opr1 = %d\n", r.opr1);	
+@
+
+
+1.11
+log
+@checking if se corrected or not
+@
+text
+@d9 1
+a9 1
+	__WAIT_STATUS __stat_loc;
+d31 1
+a31 1
+			wait(stat_loc);
+@
+
+
+1.10
+log
+@se.
+@
+text
+@d9 1
+d31 1
+a31 1
+			wait(2);
+@
+
+
+1.9
+log
+@wait().
+@
+text
+@d30 1
+a30 1
+			wait();
+@
+
+
+1.8
+log
+@se
+@
+text
+@d30 1
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d37 1
+a37 1
+	printf("r.opr1 = %d\n", r.opr1)	
+@
+
+
+1.6
+log
+@sum declared
+@
+text
+@d36 4
+a39 3
+	
+	sum = r.opr1 + r.opr2;
+	printf("sum = %d", sum);
+@
+
+
+1.5
+log
+@performing sum operation in server.c and printing the result
+@
+text
+@d7 1
+a7 1
+	int ret, arr[2], count;
+d37 1
+a37 1
+	sum = r.opr1 r.oper r.opr2;
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d6 1
+d36 3
+@
+
+
+1.3
+log
+@readeing from rfd
+@
+text
+@d32 2
+a33 1
+	count = read(rfd, &buff, 100);
+@
+
+
+1.2
+log
+@program formatting made better by adding /n to the printf statement
+@
+text
+@d6 2
+a7 2
+	int ret, arr[2];
+	char rfd[4], wfd[4];
+d32 2
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d8 1
+a8 1
+	printf("File: %s, Running", __FILE__);
+d14 1
+a14 1
+	printf("file descriptors are arr[0]= %d ; arr[1] = %d", arr[0], arr[1]);	
+d25 1
+a25 1
+			printf("child process is running %s", __FILE__);
+d29 1
+a29 1
+			printf("Parent process Running successfully");
+@

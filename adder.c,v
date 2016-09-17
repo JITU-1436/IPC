@@ -1,0 +1,258 @@
+head	1.13;
+access;
+symbols;
+locks
+	root:1.13; strict;
+comment	@ * @;
+
+
+1.13
+date	2015.12.26.11.04.53;	author root;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2015.12.26.11.04.07;	author root;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2015.12.26.11.03.06;	author root;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2015.12.26.11.02.21;	author root;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2015.12.26.11.01.37;	author root;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2015.12.26.11.00.41;	author root;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2015.12.26.10.58.42;	author root;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2015.12.26.10.38.20;	author root;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2015.12.24.19.35.37;	author root;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2015.12.24.19.23.26;	author root;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2015.12.24.18.38.28;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.12.24.18.10.40;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.12.24.18.00.55;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@client2 created for processing the request sent by client1 through server
+sum calculated and written to server through pipe2
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@#include<stdio.h>
+#include"request.h"
+
+int main(int argc, char *argv[])
+{
+	struct request add;
+	int rfd, wfd, ret, res, byt;
+	if(argc != 3)
+	{
+		printf("Error");
+	}
+	
+	rfd = atoi(argv[1]);
+	wfd = atoi(argv[2]);
+	printf("File: %s\t rfd = %d\n",__FILE__, rfd);
+	printf("File: %s\t wfd = %d\n",__FILE__, wfd);
+
+	ret = read(rfd, &add, sizeof(struct request));
+	
+	printf("File: %s Read %d bytes from rfd\n",__FILE__, ret);
+
+	printf("File: %s add.oper = %c\n",__FILE__,(char)add.oper);
+        printf("File: %s add.opr1 = %d\n",__FILE__, (int)add.opr1);
+        printf("File: %s add.opr2 = %d\n",__FILE__, (int)add.opr2);
+        res =add.opr1 + add.opr2;
+        printf("File: %s res = %d\n",__FILE__, res);
+        byt = write(wfd, &res,sizeof(int));
+        printf("File: %s Wrote %d bytes\n", __FILE__, byt);	
+}
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d26 1
+a26 1
+i        printf("File: %s res = %d\n",__FILE__, res);
+@
+
+
+1.11
+log
+@Returned to previous state.
+@
+text
+@d25 2
+a26 2
+        res =(add.opr1) + (add.opr2);
+        printf("File: %s res = %d\n",__FILE__, res);
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d25 1
+a25 1
+        res =(add.opr1) (char)(add.oper) (add.opr2);
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d25 1
+a25 1
+        res =(add.opr1) (add.oper) (add.opr2);
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d25 1
+a25 1
+        res =(int)(add.opr1) (char)(add.oper) (int)(add.opr2);
+@
+
+
+1.7
+log
+@trying to fetch the operator
+@
+text
+@d25 1
+a25 1
+        res = add.opr1 add.oper add.opr2;
+@
+
+
+1.6
+log
+@Adder.c is a processing client that processes the request recieved from requesting client through the server
+After processing the request it sends it back to the server
+@
+text
+@d25 1
+a25 1
+        res = add.opr1 + add.opr2;
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d28 1
+a28 2
+        printf("File: %s Wrote %d bytes\n", __FILE__, byt);
+	
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d18 1
+a18 1
+	ret = read(rfd, &add, 12);
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d18 1
+a18 1
+	ret = read(rfd, &add, sizeof(struct request));
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d15 2
+a16 2
+	printf("File: %s\trfd = %d\n",__FILE__, rfd);
+	printf("File: %s\twfd = %d\n",__FILE__, wfd);
+d20 1
+a20 1
+	printf("Read %d bytes to wfd\n", ret);
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d18 1
+a18 1
+	ret = read(wfd, &add, sizeof(struct request));
+d26 2
+a27 2
+        printf("res = %d\n", res);
+        byt = write(arr1[1], &res,sizeof(int));
+@

@@ -1,0 +1,161 @@
+
+RCS file: header.h,v
+Working file: header.h
+head: 1.1
+branch:
+locks: strict
+	root: 1.1
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 1;	selected revisions: 1
+description:
+All the required header files are included here
+some important are
+stdio.h
+unistd.h
+stdlib.h
+string.h
+----------------------------
+revision 1.1	locked by: root;
+date: 2015/12/24 05:26:16;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: request.h,v
+Working file: request.h
+head: 1.4
+branch:
+locks: strict
+	root: 1.4
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 4;	selected revisions: 4
+description:
+This header file defines the structure of the request.
+----------------------------
+revision 1.4	locked by: root;
+date: 2015/12/23 17:42:28;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2015/12/23 17:34:29;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2015/12/23 17:33:04;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.1
+date: 2015/12/23 16:17:49;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: server.c,v
+Working file: server.c
+head: 1.8
+branch:
+locks: strict
+	root: 1.8
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 8;	selected revisions: 8
+description:
+This is Server program that accepts requests and processes and returns it to the specified client
+a child process is started using fork(); which further starts a new process using execl();
+----------------------------
+revision 1.8	locked by: root;
+date: 2015/12/23 18:31:04;  author: root;  state: Exp;  lines: +1 -1
+se
+----------------------------
+revision 1.7
+date: 2015/12/23 18:30:34;  author: root;  state: Exp;  lines: +4 -3
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2015/12/23 18:27:36;  author: root;  state: Exp;  lines: +2 -2
+sum declared
+----------------------------
+revision 1.5
+date: 2015/12/23 18:25:11;  author: root;  state: Exp;  lines: +4 -0
+performing sum operation in server.c and printing the result
+----------------------------
+revision 1.4
+date: 2015/12/23 18:15:33;  author: root;  state: Exp;  lines: +2 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2015/12/23 18:11:58;  author: root;  state: Exp;  lines: +4 -2
+readeing from rfd
+----------------------------
+revision 1.2
+date: 2015/12/23 16:23:06;  author: root;  state: Exp;  lines: +4 -4
+program formatting made better by adding /n to the printf statement
+----------------------------
+revision 1.1
+date: 2015/12/23 16:10:58;  author: root;  state: Exp;
+Initial revision
+=============================================================================
+
+RCS file: client1.c,v
+Working file: client1.c
+head: 1.11
+branch:
+locks: strict
+	root: 1.11
+access list:
+symbolic names:
+keyword substitution: kv
+total revisions: 11;	selected revisions: 11
+description:
+This is a client program which will generate requests
+rfd and wfd taken through CLA are coonvertwd to integer using atoi();
+creating request using struct request
+----------------------------
+revision 1.11	locked by: root;
+date: 2015/12/23 18:25:11;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.10
+date: 2015/12/23 17:53:42;  author: root;  state: Exp;  lines: +1 -1
+ret declared
+----------------------------
+revision 1.9
+date: 2015/12/23 17:52:55;  author: root;  state: Exp;  lines: +5 -4
+wrote to the wfd
+----------------------------
+revision 1.8
+date: 2015/12/23 17:42:26;  author: root;  state: Exp;  lines: +4 -3
+*** empty log message ***
+----------------------------
+revision 1.7
+date: 2015/12/23 17:33:41;  author: root;  state: Exp;  lines: +1 -2
+*** empty log message ***
+----------------------------
+revision 1.6
+date: 2015/12/23 17:20:47;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.5
+date: 2015/12/23 17:18:35;  author: root;  state: Exp;  lines: +1 -0
+*** empty log message ***
+----------------------------
+revision 1.4
+date: 2015/12/23 17:15:22;  author: root;  state: Exp;  lines: +1 -1
+*** empty log message ***
+----------------------------
+revision 1.3
+date: 2015/12/23 16:57:18;  author: root;  state: Exp;  lines: +2 -2
+*** empty log message ***
+----------------------------
+revision 1.2
+date: 2015/12/23 16:23:06;  author: root;  state: Exp;  lines: +6 -6
+program formatting made better by adding /n to the printf statement
+checking if previous error is removed or not
+----------------------------
+revision 1.1
+date: 2015/12/23 16:10:58;  author: root;  state: Exp;
+Initial revision
+=============================================================================

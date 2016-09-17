@@ -1,0 +1,37 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2015.12.24.05.26.16;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@All the required header files are included here
+some important are
+stdio.h
+unistd.h
+stdlib.h
+string.h
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#include<stdio.h>
+#include<sys/types.h>
+#include<unistd.h>
+#include<sys/wait.h>
+#include<stdlib.h>
+#include<fcntl.h>
+#include<string.h>
+@
